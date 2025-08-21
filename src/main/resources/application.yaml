@@ -1,0 +1,9 @@
+spring:
+  kafka:
+    consumer:
+      group-id: my-test-group
+    bootstrap-servers: 172.21.33.20:9092
+  application:
+    name: workflow-initiator
+server:
+  port: '8080'
